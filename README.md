@@ -6,7 +6,7 @@ Speakers
 * **[Silas Smith](https://github.com/codersmith)**, Senior Software Engineer at ServiceNow
 * **[Venkata Koya](https://github.com/kvkk)**, Senior Software Engineer at ServiceNow
 
-Special thanks to **[Grant Hulbert](https://github.com/VoiceOfSoftware)** for assisting in the demo preparation.
+Special thanks to **[Grant Hulbert](https://community.servicenow.com/people/grant.hulbert)** ([@VoiceOfSoftware](https://twitter.com/VoiceOfSoftware)) for assisting in the demo preparation.
 
 ## Architecture
 Here is an overview of the demo architecture.
