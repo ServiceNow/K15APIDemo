@@ -3,7 +3,7 @@ This project contains source code for the ServiceNow K15 breakout session titled
 
 Speakers
 * **[Bryan Barnard](https://github.com/bryanbarnard)** ([@nardbard](https://twitter.com/nardbard)), Integrations Product Manager at ServiceNow
-* **[Silas Smith](https://github.com/codersmith)**, Senior Software Engineer at ServiceNow
+* **[Silas Smith](https://community.servicenow.com/people/silas)**, Senior Software Engineer at ServiceNow
 * **[Venkata Koya](https://github.com/kvkk)**, Senior Software Engineer at ServiceNow
 
 Special thanks to **[Grant Hulbert](https://community.servicenow.com/people/grant.hulbert)** ([@VoiceOfSoftware](https://twitter.com/VoiceOfSoftware)) for assisting in the demo preparation.
