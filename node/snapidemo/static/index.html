@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="snow">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- Bootstrap and Fonts -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Wrapper-->
+<div id="wrapper">
+
+    <!-- Page wraper -->
+    <!-- ng-class with current state name give you the ability to extended customization your view -->
+    <div id="page-wrapper" class="gray-bg {{$state.current.name}}">
+
+        <!-- Main view  -->
+        <div ui-view></div>
+
+    </div>
+    <!-- End page wrapper-->
+
+</div>
+<!-- End wrapper-->
+
+<!-- jQuery and Bootstrap -->
+<script src="js/lib/jquery-2.1.1.min.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
+
+<!-- Angular scripts-->
+<script src="js/lib/angular.min.js"></script>
+<script src="js/lib/angular-ui-router.min.js"></script>
+<script src="js/lib/ui-bootstrap-tpls-0.11.0.min.js"></script>
+
+<!-- App Script -->
+<script src="js/app.js"></script>
+<script src="js/config.js"></script>
+<script src="js/listControllers.js"></script>
+</body>
+</html>

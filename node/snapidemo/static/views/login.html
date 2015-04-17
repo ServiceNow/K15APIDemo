@@ -1,0 +1,30 @@
+
+<div ng-controller="LoginCtrl">
+	
+		<div align="center">
+
+			<img ng-src="img/logo.png">
+		<p>Mobile Solution for ServiceNow Search</p>
+
+		</div>
+		
+		<form class="input-group" role="form">
+			<div class="label-danger">{{loginError}}</div>
+			<div class="form-group">
+				<input class="form-control" placeholder="Username" required=""
+					ng-model="credentials.username">
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" placeholder="Password"
+					required="" ng-model="credentials.password">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="ServiceNow Domain"
+					required="" ng-model="credentials.domain">
+			</div>
+			<div class="form-group" align="center"><button class= "btn btn-outlined" ng-click="login(credentials)">Login</button></div>
+		</form>
+		<p class="m-t">
+			<small>ServiceNow &copy; 2014</small>
+		</p>
+</div>

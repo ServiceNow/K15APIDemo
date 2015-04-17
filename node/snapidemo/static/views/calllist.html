@@ -1,0 +1,37 @@
+<div>
+    <div class="container">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h1 align="center"><strong>Welcome to ServiceNow API - K15</strong></h1>
+                <h2 align="center">To participate in the demo, text 'join' to <span class="label label-success">(312) 313-1772</span> or scan QR code </h2>
+                <!--
+            <p>
+    <a class="btn btn-primary btn-lg" href="http://wiki.servicenow.com/index.php?title=REST_API" role="button">Learn more</a>
+</p>
+-->
+            </div>
+        </div>
+        <div class="panel panel-info" ng-controller="ListCtrl">
+            <div class="panel-heading">
+                <h2> Registered participants: <span  class="label label-success">{{result ? result.stats.count : 'Loading...'}}</span> </h2>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12"><img src="/img/qr_code.png" class="img-responsive center-block">
+                    </div>
+                    <!--
+                    <div class="col-md-4">
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="item in result">
+            <div>{{item.u_string_1}}
+            </div>
+        </li>
+    </ul>
+</div>
+-->
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
