@@ -31,7 +31,7 @@ The ServiceNow instance is configured with one table to store participant phone 
 | Session Participants Import Set Web Service | `u_attendee_phone_number_imp_ws` | Registers a phone number |
 | Urgent Incident Conf Trigger Import Set Web Service | `u_urgent_incident_conf_trigger` | Triggers opening a bridge from a transform script |
 
-The update set with these components can be found [here](/TODO-link-to-update-set). TODO
+The update set with these components can be found [here](/servicenow/K15_API_DEMO_UpdateSet.xml).
 
 Additionally, [Notify API](http://wiki.servicenow.com/index.php?title=Notify) properties are configured as:
 ![NotifyNow configuration](/images/notify_config.jpg "NotifyNow configuration")
