@@ -7,7 +7,7 @@ module.exports = function (app) {
     }));
 
     var baseRequest = request.defaults({
-        baseUrl: 'https://k15apidemo.service-now.com',
+        baseUrl: 'https://nowforumlondonapidemo.service-now.com',
         auth: {
             'user': 'xxxxxx',
             'pass': 'xxxxxxx',
