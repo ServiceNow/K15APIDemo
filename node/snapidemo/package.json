@@ -12,7 +12,7 @@
     "express": "~4.12.2",
     "forever": "^0.14.1",
     "jade": "~1.9.2",
-    "morgan": "~1.5.1",
+    "morgan": "~1.9.1",
     "request": "^2.54.0",
     "serve-favicon": "~2.2.0",
     "underscore": "^1.8.2"
